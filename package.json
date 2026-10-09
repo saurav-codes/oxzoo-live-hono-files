@@ -1,0 +1,15 @@
+{
+  "name": "hono-files",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "hono": "4.13.13"
+  },
+  "devDependencies": {
+    "@types/bun": "1.3.14"
+  }
+}
